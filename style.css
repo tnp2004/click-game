@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: calc(60% + .8vmin);
+}
+
+body {
+    margin: 0;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg),
+    linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+nav {
+    background-color: rgba(24, 23, 23, 0.952);
+    color: white;
+    max-width: 4rem;
+    height: 4rem;
+    margin: 10px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 35rem;
+    height: 35rem;
+    padding: 1rem;
+    grid-gap: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    background-color: #39AEA9;
+    color: white;
+    font-size: 40px;
+    cursor: default;
+    opacity: .9;
+}
+
+.element:hover {
+    opacity: 1;
+}
+
+.time {
+    display: flex;
+    max-width: 35rem;
+    margin: 0  auto;
+}
+
+.timer {
+    background-color: white;
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 8rem;
+    height: 2rem;
+    margin-bottom: 12px;
+    padding: 3px;
+}
+
+.time-text {
+    position: absolute;
+    left: 8px;
+}
+
+.reset-btn {
+    cursor: pointer;
+    margin-left: 10px;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+}
+
+.reset-btn:hover {
+    background-color: #39AEA9;
+    border: none;
+    color: white;
+}
+
+.img-end {
+    display: none;
+    width: 20rem;
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+}
