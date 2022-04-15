@@ -3,8 +3,7 @@ const reset = document.querySelector('.reset-btn')
 
 
 const random = (limitRd) => {
-    let rand = Math.floor(Math.random() * limitRd)
-    return rand
+    return Math.floor(Math.random() * limitRd)
 }
 
 let arrFirstSet = []
